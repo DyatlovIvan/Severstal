@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.table {
+    display: block;
+    border-collapse: collapse
+}
+
+.headerBlock {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: azure;
+}
+
+.headerTop:nth-child(1) {
+    flex-basis: 7%;
+}
+
+.headerTop:nth-child(2) {
+    flex-basis: 15%;
+}
+
+.headerTop:nth-child(3) {
+    flex-basis: 20%;
+}
+
+.headerTop:nth-child(4) {
+    flex-basis: 26%;
+}
+
+.headerTop:nth-child(5) {
+    flex-basis: 26%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.row_expandable {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-bottom: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.row_expanded {
+    font-weight: bold;
+}
+
+.cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.cell:nth-child(1) {
+    flex-basis: 7%;
+}
+
+.cell:nth-child(2) {
+    flex-basis: 15%;
+}
+
+.cell:nth-child(3) {
+    flex-basis: 20%;
+}
+
+.cell:nth-child(4) {
+    flex-basis: 26%;
+}
+
+.cell:nth-child(5) {
+    flex-basis: 26%;
+}
+
+.ceil:last-child {
+    margin-right: auto;
+}
+
+.isActiveLabel > * {
+    margin-left: 2px;
+}
